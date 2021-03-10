@@ -1,0 +1,53 @@
+/* @theme test */
+
+@import 'default';
+
+section {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 40px;
+    background-image: url(./images/hero-background.jpg);
+}
+
+section.title h1 {
+    color: #2980b9;
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+}
+
+section.title {
+    color: #3498db;
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+
+section.slides {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+section.slides h1 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 68px;
+    color: #2980b9;
+    position: absolute;
+    left: 50px; top: 30px;
+}
+
+section.slides h2 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #3498db;
+    position: absolute;
+    left: 50px; top: 90px;
+}
