@@ -1,4 +1,4 @@
-/* @theme test */
+/* @theme forLightningTalk */
 
 @import 'default';
 
@@ -7,7 +7,7 @@ section {
     font-weight: 500;
     font-size: 28px;
     padding: 40px;
-    background-image: url(./images/hero-background.jpg);
+    background-image: url(../marp-themes/images/hero-background.jpg);
 }
 
 section.title h1 {
@@ -32,6 +32,22 @@ section.slides {
     font-weight: 500;
     font-size: 30px;
     color: #2c3e50;
+}
+
+section.slides_2 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+section.slides_2 h1 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 68px;
+    color: #2980b9;
+    position: absolute;
+    left: 50px; top: 30px;
 }
 
 section.slides h1 {

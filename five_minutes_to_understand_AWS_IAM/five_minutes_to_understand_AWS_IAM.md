@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: test
+theme: forLightningTalk
 size: 16:9
 ---
 <!--
