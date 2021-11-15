@@ -67,3 +67,19 @@ section.slides h2 {
     position: absolute;
     left: 50px; top: 90px;
 }
+
+section.slides_3 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 66px;
+    color: #2c3e50;
+}
+
+section.slides_3 h1 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 68px;
+    color: #2980b9;
+    position: absolute;
+    left: 50px; top: 30px;
+}
