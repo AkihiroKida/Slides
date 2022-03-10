@@ -34,6 +34,13 @@ section.slides {
     color: #2c3e50;
 }
 
+section.slides p{
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
 section.slides_2 {
     font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
     font-weight: 500;
@@ -82,4 +89,40 @@ section.slides_3 h1 {
     color: #2980b9;
     position: absolute;
     left: 50px; top: 30px;
+}
+
+section.split {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 100px auto;
+    grid-template-areas: 
+        "slideheading slideheading"
+        "slidesentence slidesentence"
+        "leftpanel rightpanel";
+}
+
+/* section.split h1 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 68px;
+    color: #2980b9;
+    position: absolute;
+    left: 50px; top: 30px;
+} */
+
+section.split h1 {
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 68px;
+    color: #2980b9;
+    grid-area: slideheading;
+}
+
+section.split p{
+    font-family: "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #2c3e50;
+    grid-area: slidesentence;
 }
